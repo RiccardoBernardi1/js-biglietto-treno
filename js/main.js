@@ -11,3 +11,4 @@ if (age<18){
     price= ( price-(price*0.4) );
 }
 // 5. mostrare a schermo il prezzo finale con massimo due decimali 
+document.querySelector("h2").innerHTML="Questo è il prezzo del tuo biglietto:"+parseFloat(price).toFixed(2)+"€"; 
