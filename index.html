@@ -5,9 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Biglietto Treno</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h2></h2>
+    <div class="container h-100">
+        <div class="row align-items-center justify-content-center h-100">
+            <div class="card col-auto" style="width: 18rem;">
+                <img src="Logo_Ferrovie_dello_Stato_Italiane.png" class="card-img-top p-3" alt="...">
+                <div class="card-body">
+                  <h3 class="card-title">Prezzo Biglietto</h3>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li id="discount" class="list-group-item fs-6"></li>
+                  <li id="final-price" class="list-group-item fs-2">
+                    Prezzo finale
+                  </li>
+                </ul>
+                <a href="#" class="btn btn-primary">Acquista Subito</a>
+                <div class="card-body px-0">
+                  <a href="#" class="card-link">Informativa sulla privacy</a>
+                </div>
+            </div>
+        </div>
+    </div> 
     <script src="js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
 </body>
 </html>
